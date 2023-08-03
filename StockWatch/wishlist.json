@@ -1,0 +1,14 @@
+{
+  "stock": [
+    {
+      "symbol": "3PLAND",
+      "name": "3P LAND HOLDINGS L",
+      "currency": "INR",
+      "exchange": "NSE",
+      "mic_code": "XNSE",
+      "country": "India",
+      "type": "Common Stock",
+      "id": 1
+    }
+  ]
+}
