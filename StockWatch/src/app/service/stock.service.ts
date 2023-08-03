@@ -11,7 +11,7 @@ export class StockService {
 
   // Method to call https://api.twelvedata.com/stocks?country=${country} by passing country name as parameter
   getStocks(country: any): Observable<any> {
-    const url = `https://fantastic-space-disco-pjr7wq9ppx96h6vvq-8080.app.github.dev/stocks/${country}`;
+    const url = `http://localhost:8080/stocks/${country}`;
     // const url = `https://api.twelvedata.com/stocks?country=${country}`;
     console.log("getstock", url)
     return this.http.get(url);
